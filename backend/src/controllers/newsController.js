@@ -5,7 +5,7 @@ exports.createNews = async (req, res) => {
     const { title, category, description } = req.body;
 
     const images = req.files
-      ? req.files.map(file => file.filename)
+      ? req.files.map(file => file.path)
       : [];
 
     const news = await News.create({
