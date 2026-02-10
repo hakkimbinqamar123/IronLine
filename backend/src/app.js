@@ -4,7 +4,7 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors({
-   origin: ["https://yourfrontenddomain.com" || "*"],
+   origin: process.env.CLIENT_URL,
    methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
    allowedHeaders: ["Content-Type", "Authorization"],
    credentials: true
