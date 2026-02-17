@@ -22,7 +22,7 @@ const AboutHeroSection = () => {
 
         {/* Text Content */}
         <div>
-          <div className="absolute inset-0">
+          <div className="absolute inset-0 pointer-events-none">
             <div className="absolute -top-32 -left-32 w-[700px] h-[700px]
                         bg-gradient-to-tr from-blue-600/25 to-cyan-400/20
                         rotate-12 blur-[160px] rounded-full"></div>

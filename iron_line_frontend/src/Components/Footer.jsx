@@ -11,7 +11,7 @@ const Footer = () => {
 
           {/* ================= COMPANY INFO ================= */}
           <div className="space-y-4">
-            <img src={logo} alt="Iron Line" className="h-10" />
+            <img src={logo} alt="Iron Line" className="h-18 w-28" />
 
             <p className="text-sm text-white/80 leading-relaxed">
               Iron Line International delivers innovative energy and

@@ -32,6 +32,7 @@ const AddNewsModal = ({ isOpen, onClose, onSuccess }) => {
     setError("");
 
     const token = localStorage.getItem("token");
+    console.log("news token: ", token)
     if (!token) {
       setError("You must be logged in to add news.");
       return;

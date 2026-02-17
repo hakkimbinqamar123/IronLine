@@ -31,7 +31,7 @@ const News = () => {
     const fetchNews = async () => {
         try {
             const res = await axios.get(`${API_URL}/api/news`);
-console.log("news:", res)
+            console.log("news:", res)
             if (res.data.length > 0) {
                 setFeaturedNews(res.data[0]);
                 setNews(res.data.slice(1));
@@ -48,20 +48,20 @@ console.log("news:", res)
 
     const checkAuth = async () => {
         const token = localStorage.getItem("token");
-
+        console.log("token", token)
         if (!token) {
             setIsAuthenticated(false);
             return;
         }
 
         try {
-            await axios.get(`${API_URL}/api/auth/me`, {
-                headers: { Authorization: `Bearer ${token}` }
-            });
+            // await axios.get(`${API_URL}/api/auth/me`, {
+            //     headers: { Authorization: `Bearer ${token}` }
+            // });
 
             setIsAuthenticated(true);
         } catch (err) {
-            localStorage.removeItem("token");
+            // localStorage.removeItem("token");
             setIsAuthenticated(false);
         }
     };

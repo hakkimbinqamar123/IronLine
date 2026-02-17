@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Images/logo.webp'
+import logo from '../assets/Images/logo1.webp'
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <NavLink to="/">
-                            <img src={logo} alt="Iron Line" className="h-14 w-auto" />
+                            <img src={logo} alt="Iron Line" className="h-12 w-auto" />
                         </NavLink>
                     </div>
 
