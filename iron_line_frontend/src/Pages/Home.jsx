@@ -30,7 +30,7 @@ const Home = () => {
     <>
       <Navbar />
       <HeroSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <AboutSection />
       <OurBusinessSection />
       <SustainabilitySection />

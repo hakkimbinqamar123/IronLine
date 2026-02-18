@@ -11,10 +11,10 @@ import service6 from "../assets/Images/service6.webp"
 
 const services = [
   {
-    title: "Oil & Gas Pipeline Construction",
+    title: "Oil & Gas Pipeline Construction (Primary Service)",
     image: service1,
     description:
-      "Iron Line Contracting specializes in full-scope pipeline construction delivering safe, durable, and precision-engineered pipeline systems.",
+      "Iron Line Contracting specializes in pipeline construction for oil and gas operations, including:",
     items: [
       "Right-of-way clearing and preparation",
       "Trenching and excavation",
@@ -22,15 +22,16 @@ const services = [
       "Lowering-in and backfilling",
       "Tie-ins and integrity digs",
       "Hydrotesting & commissioning",
-      "Repairs, maintenance & integrity upgrades",
+      "Repairs, maintenance, & integrity upgrades We follow strict safety and environmental standards to ensure secure, long-lasting pipeline integrity.",
     ],
   },
   {
     title: "Civil Construction",
     image: service3,
     description:
-      "Industrial and commercial infrastructure development including site preparation and engineered civil works.",
+      "",
     items: [
+      "Industrial and commercial infrastructure",
       "Access roads construction",
       "Drainage systems",
       "Culverts & site development",
@@ -41,48 +42,48 @@ const services = [
     title: "Excavation & Earthworks",
     image: service2,
     description:
-      "Large-scale excavation and earthmoving operations executed using modern machinery and experienced operators.",
+      "",
     items: [
       "Trenching & grading",
       "Earthmoving operations",
       "Site cuts & preparation",
-      "Detailed excavation works",
+      "Detailed excavation supported by skilled operators and modern machinery",
     ],
   },
   {
     title: "Utility Installation",
     image: service4,
     description:
-      "Underground utility installation built to strict engineering and regulatory standards.",
+      "Underground installation of water, sewer, storm, and electrical systems built to industry specifications and regulatory requirements",
     items: [
-      "Water pipeline installation",
-      "Sewer systems",
-      "Stormwater systems",
-      "Electrical utility installation",
+      // "Water pipeline installation",
+      // "Sewer systems",
+      // "Stormwater systems",
+      // "Electrical utility installation",
     ],
   },
   {
     title: "Concrete & Structural Works",
     image: service5,
     description:
-      "High-precision reinforced concrete and structural works supporting industrial and infrastructure projects.",
+      "",
     items: [
       "Foundations & slabs",
       "Equipment pads",
       "Retaining structures",
-      "Reinforced concrete works",
+      "Reinforced concrete built for durability and precision",
     ],
   },
   {
     title: "General Contracting",
     image: service6,
     description:
-      "End-to-end project management delivering coordinated execution from planning to completion.",
+      "",
     items: [
-      "Project planning & scheduling",
-      "Construction coordination",
-      "Execution management",
-      "Turnkey project delivery",
+      " Complete project management",
+      "Planning",
+      "scheduling",
+      "Coordination from start to finish",
     ],
   },
 ];

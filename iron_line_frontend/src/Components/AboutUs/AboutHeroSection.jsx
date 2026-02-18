@@ -7,15 +7,15 @@ import { useEffect, useState } from "react";
 const images = [img, img2, img3];
 const AboutHeroSection = () => {
   const [index, setIndex] = useState(0);
-  
-    // Auto slide
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setIndex((prev) => (prev + 1) % images.length);
-      }, 3500);
-  
-      return () => clearInterval(interval);
-    }, []);
+
+  // Auto slide
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, 3500);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section className="relative bg-gradient-to-r from-[#0B243A] to-[#0F2A44] text-white py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
@@ -49,8 +49,9 @@ const AboutHeroSection = () => {
           <p className="text-white/80 text-base leading-relaxed mt-5">
             Our experienced crews, modern equipment, and project-proven
             leadership allow us to execute complex projects safely, efficiently,
-            and to the highest standards — from pipeline construction and utility
-            installation to full-scale civil and infrastructure delivery.
+            and to the highest standards. . Whether constructing pipelines, installing
+            utilities, developing sites, or managing full-scale builds, Iron Line Contracting stands behind every project
+            with durable workmanship and reliable performance.
           </p>
 
           {/* CTA Buttons */}
@@ -73,34 +74,34 @@ const AboutHeroSection = () => {
 
         {/* Image */}
         <div className="relative hidden md:block">
-                  <div className="absolute -inset-6 rounded-[40px]
+          <div className="absolute -inset-6 rounded-[40px]
                           bg-gradient-to-tr from-blue-600/30 to-cyan-400/20
                           blur-2xl"></div>
-        
-                  {/* FIXED SIZE IMAGE CONTAINER */}
-                  <div className="relative w-full h-[420px] overflow-hidden rounded-[32px]
+
+          {/* FIXED SIZE IMAGE CONTAINER */}
+          <div className="relative w-full h-[420px] overflow-hidden rounded-[32px]
                           shadow-[0_40px_90px_rgba(0,0,0,0.55)]">
-        
-                    <img
-                      src={images[index]}
-                      alt="Operations"
-                      className="w-full h-full object-cover transition-all duration-700"
-                    />
-        
-                  </div>
-        
-                  {/* Indicators */}
-                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-                    {images.map((_, i) => (
-                      <span
-                        key={i}
-                        className={`w-2.5 h-2.5 rounded-full transition ${i === index ? "bg-white" : "bg-white/40"
-                          }`}
-                      />
-                    ))}
-                  </div>
-                </div>
-        
+
+            <img
+              src={images[index]}
+              alt="Operations"
+              className="w-full h-full object-cover transition-all duration-700"
+            />
+
+          </div>
+
+          {/* Indicators */}
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+            {images.map((_, i) => (
+              <span
+                key={i}
+                className={`w-2.5 h-2.5 rounded-full transition ${i === index ? "bg-white" : "bg-white/40"
+                  }`}
+              />
+            ))}
+          </div>
+        </div>
+
 
       </div>
     </section>

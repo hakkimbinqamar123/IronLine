@@ -27,7 +27,7 @@ const AboutUs = () => {
       <Navbar />
       <AboutHeroSection />
       <WhoWeAreSection />
-      <CoreBusinessesSection />
+      {/* <CoreBusinessesSection /> */}
       <StrategySection />
       <ObjectivesSection />
       <Footer />
