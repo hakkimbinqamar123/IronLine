@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* ================= TOP GRID ================= */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10">
 
           {/* ================= COMPANY INFO ================= */}
           <div className="space-y-4">
@@ -40,25 +40,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* ================= PARTNERS ================= */}
-          <div>
-            <h4 className="font-semibold mb-4 tracking-wide">
-              Who We Work With
-            </h4>
-
-            <ul className="space-y-2.5 text-sm text-white/75">
-              {[
-                "Shoreline Natural Resources",
-                "Nigerian Ropes",
-                "Costain WA",
-                "QITC",
-                "DBN",
-                "Mota Engil",
-              ].map((partner) => (
-                <li key={partner}>{partner}</li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* ================= CONTACT FORM ================= */}
           <div>
