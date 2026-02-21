@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-6 text-sm font-medium">
             <NavLink to="/about-us" className={linkClass}>About Us</NavLink>
-            {/* <NavLink to="/operations" className={linkClass}>Operations</NavLink> */}
+            <NavLink to="/operations" className={linkClass}>Operations</NavLink>
             <NavLink to="/services" className={linkClass}>Services</NavLink>
             <NavLink to="/subsidiary" className={linkClass}>Subsidiary</NavLink>
             <NavLink to="/news" className={linkClass}>News and Media</NavLink>
@@ -61,9 +61,9 @@ const Navbar = () => {
               About Us
             </NavLink>
 
-            {/* <NavLink to="/operations" onClick={closeMenu} className={linkClass}>
+            <NavLink to="/operations" onClick={closeMenu} className={linkClass}>
               Operations
-            </NavLink> */}
+            </NavLink>
 
             <NavLink to="/services" onClick={closeMenu} className={linkClass}>
               Services
