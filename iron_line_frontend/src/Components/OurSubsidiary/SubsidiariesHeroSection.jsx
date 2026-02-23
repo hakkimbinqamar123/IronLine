@@ -31,7 +31,7 @@ const SubsidiariesHeroSection = () => {
           </span>
 
           <h1 className="text-6xl md:text-7xl font-semibold leading-tight mb-8">
-            Our Subsidiaries
+            Our Projects
           </h1>
 
           <p className="text-white/80 text-lg leading-relaxed max-w-xl mb-8">

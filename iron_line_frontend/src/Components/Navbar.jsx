@@ -26,7 +26,7 @@ const Navbar = () => {
             <NavLink to="/about-us" className={linkClass}>About Us</NavLink>
             {/* <NavLink to="/operations" className={linkClass}>Operations</NavLink> */}
             <NavLink to="/services" className={linkClass}>Services</NavLink>
-            <NavLink to="/subsidiary" className={linkClass}>Subsidiary</NavLink>
+            <NavLink to="/subsidiary" className={linkClass}>Our Projects</NavLink>
             <NavLink to="/news" className={linkClass}>News and Media</NavLink>
           </nav>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink to="/subsidiary" onClick={closeMenu} className={linkClass}>
-              Subsidiary
+              Our Projects
             </NavLink>
 
             <NavLink to="/news" onClick={closeMenu} className={linkClass}>
