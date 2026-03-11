@@ -53,7 +53,7 @@ const BusinessesSection = () => {
             Our Services
           </h2>
           <p className="text-sm text-gray-500 mt-1">
-            Diverse Operations Across the Energy and Infrastructure Sectors
+            Infrastructure with Integrity
           </p>
         </div>
 

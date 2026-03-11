@@ -34,11 +34,11 @@ const SubsidiariesHeroSection = () => {
             Our Projects
           </h1>
 
-          <p className="text-white/80 text-lg leading-relaxed max-w-xl mb-8">
+          {/* <p className="text-white/80 text-lg leading-relaxed max-w-xl mb-8">
             A diversified portfolio of operating companies delivering long-term
             value across energy, infrastructure, investment,
             telecommunications, and contracting.
-          </p>
+          </p> */}
 
           <div className="w-24 h-[3px] bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full"></div>
         </div>

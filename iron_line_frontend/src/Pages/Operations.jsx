@@ -10,13 +10,13 @@ import SafetyCommitmentSection from '../Components/Operations/SafetyCommitmentSe
 const Operations = () => {
   return (
     <>
-    <Navbar/>
-    <OperationsHeroSection/>
-    <OperationsOverviewSection/>
-    <OperatingModelSection/>
-    <CoreOperationsSection/>
-    <SafetyCommitmentSection/>
-    <Footer/>
+      <Navbar />
+      <OperationsHeroSection />
+      <OperationsOverviewSection />
+      <OperatingModelSection />
+      <CoreOperationsSection />
+      <SafetyCommitmentSection />
+      <Footer />
     </>
   )
 }

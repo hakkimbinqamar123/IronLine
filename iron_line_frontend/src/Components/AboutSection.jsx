@@ -47,7 +47,7 @@ const AboutSection = () => {
             </span>
 
             <h2 className="text-3xl font-semibold text-[#173E73] mt-3">
-              Powering Sustainable Energy & Infrastructure Across Africa
+              Forged for Performance.
             </h2>
 
             <p className="text-gray-600 mt-5 leading-relaxed">

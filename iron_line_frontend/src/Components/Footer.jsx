@@ -14,14 +14,14 @@ const Footer = () => {
             <img src={logo} alt="Iron Line" className="h-18 w-28" />
 
             <p className="text-sm text-white/80 leading-relaxed">
-              Iron Line International delivers innovative energy and
-              infrastructure solutions across Africa.
+              Iron Line Contracting delivers safe, high-quality pipeline and construction services with
+              precision and integrity. Built strong. Built to last.
             </p>
 
             <div className="text-sm space-y-1.5 text-white/75">
               <p>📍 TOWER1, FLOOR 3, AL DANA, <br /> ABU DHABI, UNITED ARAB EMIRATES</p>
-              <p>📞 +234 (1) 700 1260</p>
-              <p>✉️ info@ironlinegroup.com</p>
+              {/* <p>📞 +234 (1) 700 1260</p>
+              <p>✉️ info@ironlinegroup.com</p> */}
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          
+
 
           {/* ================= CONTACT FORM ================= */}
           <div>

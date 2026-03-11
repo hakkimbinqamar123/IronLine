@@ -134,11 +134,11 @@ const Services = () => {
                     bg-gradient-to-r from-blue-400 to-cyan-400"></div>
 
     {/* Description */}
-    <p className="max-w-3xl mx-auto text-white/80 text-lg leading-relaxed">
+    {/* <p className="max-w-3xl mx-auto text-white/80 text-lg leading-relaxed">
       Delivering integrated engineering, construction, and infrastructure
       services through disciplined execution, safety leadership, and
       technical excellence.
-    </p>
+    </p> */}
 
   </div>
 </section>
