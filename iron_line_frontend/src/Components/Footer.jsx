@@ -118,9 +118,9 @@ const Footer = () => {
           <p>© 2026 Iron Line International. All rights reserved.</p>
 
           <div className="flex gap-5">
-            <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-white">Terms of Use</Link>
-            <Link to="/sitemap" className="hover:text-white">Site Map</Link>
+            <h3 to="/privacy-policy" className="hover:text-white">Privacy Policy</h3>
+            <h3 to="/terms" className="hover:text-white">Terms of Use</h3>
+            <h3 to="/sitemap" className="hover:text-white">Site Map</h3>
           </div>
 
         </div>
